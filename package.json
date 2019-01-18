@@ -1,13 +1,19 @@
 {
-  "name": "der-propuestas",
-  "version": "0.1.0",
+  "name": "der-propuestas-front",
+  "version": "1.0.0",
   "private": true,
+  "description": "The front for proposals microsite",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "buefy": "^0.7.2",
+    "bulma": "^0.7.2",
+    "lodash": "^4.17.11",
+    "vee-validate": "^2.1.5",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
